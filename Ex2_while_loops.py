@@ -201,6 +201,13 @@ print("-------------------------------------------\n"
 #     print("Try again")
 
 # Write your code below:
+password = "guessed"
+guess = input("enter your password")
+while guess == password:
+    print("access granted")
+    break
+while guess != password:
+    guess = input("try again") 
 
 
 # -------------------------------------------
