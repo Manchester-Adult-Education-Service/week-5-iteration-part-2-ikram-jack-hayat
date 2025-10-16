@@ -124,11 +124,11 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-num = int(input("Enter a number between 1 and 10\n"))
+# num = int(input("Enter a number between 1 and 10\n"))
 
-while num >= 10 or num <= 1:
-    num = int(input("Try again"))
-print("Thank you")
+# while num >= 10 or num <= 1:
+#     num = int(input("Try again"))
+# print("Thank you")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -167,6 +167,12 @@ print("-------------------------------------------\n"
 #     something = something - 1
 
 # Write your code below:
+
+counter = range(10, 0, -1)
+
+for i in counter:
+    print(i)
+print("Liftoff!")
 
 
 # -------------------------------------------
